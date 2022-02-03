@@ -1,11 +1,11 @@
 package main
 
 import (
-	"fmt"
+	"github.com/letstalkdata/bookstore_users-api/app"
 )
 
-func main(){
+func main() {
 
-	fmt.Println("Hi")
+	app.StartApp()
 
 }
